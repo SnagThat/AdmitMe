@@ -7,29 +7,41 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>AdmitMe</title>
+    <style>
+        h1 {text-align: center; margin-top: 80px}
+        h2 {text-align: center;}
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .button{
+            float:left;
+            margin:2px;
+        }
+    </style>
   </head>
   <body>
     <div id="navbar">
         <a href="/">
             <img src="https://i.imgur.com/MRGuTdT.png"
                  alt="logo" width="150"
-                 style="margin-left: 20px; margin-top: 20px"/>
+                 style="margin-left: 1%; margin-top: 20px"/>
         </a>
         <a href="/platform"
            class="btn btn-primary float-right"
            role="button"
            style=
-                   "margin-right: 20px;
+                   "margin-right: 1%;
                    margin-top: 20px;
-                   background-image: linear-gradient(to right, #9900ff, #1155cc);
+                   background-color: #ff6587;
                    border-radius: 20px;
                    color: #fff;
-                   border-color: #fff;
+                   border-color: #ff6587;
                    border-width: 3px;
                    padding: 5px 30px"
         >
@@ -43,39 +55,99 @@
                    margin-top: 20px;
                    background-color: white;
                    border-radius: 20px;
-                   color: #9900ff;
-                   border-color: #9900ff;
+                   color: #ff6587;
+                   border-color: #ff6587;
                    border-width: 3px;
                    padding: 5px 30px"
         >
             Log In
         </a>
     </div>
+
+    <!-- upper div container for title & tagline-->
     <div class="container">
-        <br />
-        <br />
-        <br />
-        <br />
-        <div class="row">
-            <div class="col-md-7">
-                <h1 class="display-4 font-weight-bold">
-                    Get your essays edited by a student at your <span style="color: #9900ff"> dream college</span>.
-                </h1>
-            <br />
-            <a href="/platform" class="btn btn-primary" role="button"
-               style=
-                       "background-image: linear-gradient(to right, #9900ff, #1155cc);
-                       border-radius: 40px; padding: 15px 50px;
-                       font-size:20px;
-                       border-color:#fff;"
-            >
-                Perfect Your Essays ➜
-            </a>
-            </div>
-            <div class="col-md-5">
-                <img src="https://i.imgur.com/qe8Unle.jpeg" width="430" style="margin-top: -50px">
-            </div>
+        <h1
+                class="display-4 font-weight-bold">
+            Welcome to <span style="color: #ff6587">Snag</span>.
+        </h1>
+
+        <h2 style="color: #868686;
+                  margin-top: 30px">
+            What are you looking for today?
+        </h2>
+    </div>
+
+    <!-- buttons side by side-->
+    <div class="container">
+        <div class="center">
+            <a href="/register" class="btn btn-primary float-right" role="button" style="
+                   margin-right: 20px;
+                   margin-top: 20px;
+                   background-color: #ff6587;
+                   border-radius: 20px;
+                   color: #fff;
+                   border-color: #ff6587;
+                   border-width: 3px;
+                   padding: 5px 30px"
+            >Cleaning Supplies</a>
+            <a href="/register" class="btn btn-primary float-right" role="button" style="
+                   margin-right: 20px;
+                   margin-top: 20px;
+                   background-color: #ff6587;
+                   border-radius: 20px;
+                   color: #fff;
+                   border-color: #ff6587;
+                   border-width: 3px;
+                   padding: 5px 30px"
+            >Exercise Equipment</a>
+            <a href="/register" class="btn btn-primary float-right" role="button" style="
+                   margin-right: 20px;
+                   margin-top: 20px;
+                   background-color: #ff6587;
+                   border-radius: 20px;
+                   color: #fff;
+                   border-color: #ff6587;
+                   border-width: 3px;
+                   padding: 5px 30px"
+            >Tech</a>
         </div>
+    </div>
+
+    <!-- buttons side by side-->
+    <div class="container">
+        <div class="center">
+            <a href="/register" class="btn btn-primary float-right" role="button" style="
+                   margin-right: 20px;
+                   margin-top: 20px;
+                   background-color: #ff6587;
+                   border-radius: 20px;
+                   color: #fff;
+                   border-color: #ff6587;
+                   border-width: 3px;
+                   padding: 5px 30px"
+            >Save</a>
+            <a href="/register" class="btn btn-primary float-right" role="button" style="
+                   margin-right: 20px;
+                   margin-top: 20px;
+                   background-color: #ff6587;
+                   border-radius: 20px;
+                   color: #fff;
+                   border-color: #ff6587;
+                   border-width: 3px;
+                   padding: 5px 30px"
+            >Save</a>
+            <a href="/register" class="btn btn-primary float-right" role="button" style="
+                   margin-right: 20px;
+                   margin-top: 20px;
+                   background-color: #ff6587;
+                   border-radius: 20px;
+                   color: #fff;
+                   border-color: #ff6587;
+                   border-width: 3px;
+                   padding: 5px 30px"
+            >Save</a>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
